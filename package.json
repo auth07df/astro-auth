@@ -1,0 +1,18 @@
+{
+  "name": "astro-auth",
+  "version": "1.0.0",
+  "description": "REST service by @auth07df",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "auth07df",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  }
+}
